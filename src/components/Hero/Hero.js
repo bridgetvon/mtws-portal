@@ -1,35 +1,40 @@
 import React from 'react';
-import { HeroContainer, HeroBg, VideoBg, HeroText, HeroContent } from './HeroEl';
-import militaryVideo from '../../Video/militaryvideo.mp4';
+import { HeroContainer, HeroBg, HeroText, HeroContent } from './HeroEl';
+import Helicopter from '../../Images/Helicopter.png';
 
 
 
 
 const Hero = (props) => {
+
+        const imageStyles = {
+          width: '100%',  
+          height: 'auto',
+        };
+
   return (
+
     <>
       <HeroContainer>
           <HeroBg>
-              { props.img !== undefined ? 
+              {/* { props.img !== undefined ? 
               <img src={props.img} alt ="hero "/> : 
               <VideoBg autoPlay loop muted src={militaryVideo} type="video/mp4" />
-            } 
-          </HeroBg>
-          <HeroContent>
+            }  */}
+            <img style={imageStyles} src={Helicopter} alt="hero" />
+            </HeroBg>
+          {/* <HeroContent>
               <HeroText>
-              {/* <Typewriter
-              onInit = { (typewriter) => {
-                  typewriter
-                  .typeString("Build roots with friends on your favorite kind of routes.")
-                  .pauseFor(500)
-                  .start();
-              }}
-              /> */}
+                <div>
+                    <text></text>
+                </div>
                 </HeroText>
-                {/* <AboutUs /> */}
           </HeroContent>
+          <HeroBg>dsjkafhsajkfhkajsdhf</HeroBg> */}
       </HeroContainer>
-      
+      <div>
+        <text> Welcome to the MTWS Portal </text>
+      </div>
       </>
 
   )

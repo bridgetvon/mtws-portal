@@ -2,15 +2,17 @@ import React from 'react';
 import { Nav, Bars, NavMenu, NavLink } from './NavbarEl';
 import { Dropdown } from 'react-bootstrap';
 import '../Nav/Navbar.css';
+import MTWSLogo from '../../Images/MTWSLogo.png';
 
 const Navbar = ({ toggle }) => {
 
     return (
         <>
             <Nav className="navbar-Nav">
+            <img className="image" src={MTWSLogo} alt ="Mtws Logo "/> 
                 <NavLink to="/">
                     <div className="navbar-div">
-                        <h2>MTWS Portal</h2>
+                        <h2>M-T-W-S Portal</h2>
                     </div>
                 </NavLink>
                 <Bars onClick={toggle} />
@@ -43,26 +45,21 @@ const Navbar = ({ toggle }) => {
                             </>
                         
                         <Dropdown id="dropdown">
-                            <Dropdown.Toggle className='drop-btn'>Activities</Dropdown.Toggle>
+                            <Dropdown.Toggle className='drop-btn'>Support</Dropdown.Toggle>
                             <Dropdown.Menu>
                                 <Dropdown.Item>
-                                    <NavLink to="/ski">
-                                        Ski
+                                    <NavLink to="/helpTickets">
+                                        Help Tickets
                                     </NavLink>
                                 </Dropdown.Item>
                                 <Dropdown.Item>
-                                    <NavLink to="/mountain-bike">
-                                        Mountain bike
+                                    <NavLink to="/mrkiTopics">
+                                       MRKI Topics
                                     </NavLink>
                                 </Dropdown.Item>
                                 <Dropdown.Item>
-                                    <NavLink to="/trail-run">
-                                        Trail Run
-                                    </NavLink>
-                                </Dropdown.Item>
-                                <Dropdown.Item>
-                                    <NavLink to="/strava">
-                                        Strava Data
+                                    <NavLink to="/ptrs">
+                                        PTR's
                                     </NavLink>
                                 </Dropdown.Item>
                             </Dropdown.Menu>

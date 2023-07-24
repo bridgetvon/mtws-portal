@@ -5,6 +5,7 @@ import Sidebar from '../components/Sidebar/Sidebar';
 import Navbar from '../components/Nav/Navbar';
 import Login from '../components/Login/Login';
 import Hero from '../components/Hero/Hero';
+import Forum from './Forum';
 
 
 
@@ -23,6 +24,7 @@ function Home() {
           <Routes>
             <Route path="/" element={<Hero/>} />
             <Route path="/login" element={<Login />} />
+            <Route path="/forum" element={ <Forum />} />
           </Routes>
       </main>
     </div>
