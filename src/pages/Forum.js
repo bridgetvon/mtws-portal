@@ -4,11 +4,8 @@ import '../App.css';
 import MyForm from '../components/Form/Form';
 
 function Forum() {
-    const [formState, setFormState] = useState({
-        name: "",
-        email: "",
-        message: "",
-    });
+    const [modalShow, setModalShow] = React.useState(false);
+
 
     return (
         <Container>
@@ -16,11 +13,19 @@ function Forum() {
                 <Col>
                     <div>
                         <h1> Help Desk </h1>
+                        <div>
+                            <h6> Help Tickets </h6>
+
+                        </div>
                     </div>
                 </Col>
-                <Col>
-                    <MyForm />
-                </Col>
+                <Button variant="primary" onClick={() => setModalShow(true)}>
+                    Launch vertically centered modal
+                </Button>
+                <MyForm
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+                />
             </Row>
         </Container>
     );

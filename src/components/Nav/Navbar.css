@@ -7,12 +7,16 @@
     color: #27405D;
 }
 
-.drop-btn{
-    margin-top: 3px;
+#drop-btn{
+    /* margin-top: 3px;
     background-color: #fff;
-    color: #29335c;
     border: none;
-    margin-left: 30px;
+    margin-left: 30px; */
+    background-color: #fff;
+    color: #27405D;
+    border: none;
+    cursor: pointer;
+    fontWeight: bolder;
 }
 
 .image{
@@ -21,7 +25,6 @@
 }
 
 #id {
-    font-weight: bolder;
 }
 
 #h2 {
@@ -30,6 +33,10 @@
 
 #dropdown {
     margin-top: 8px;
+
+    &.active{
+        color: #15cdfc;
+    }
 }
 .navbarNav{
     padding: 20px;
