@@ -1,0 +1,35 @@
+#form-box {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    justify-content: center;
+    color: #fff;
+    font-weight: bolder;
+}
+
+#login-card {
+    border: 1px solid darkgray;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 20%;
+    margin-bottom: 20%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+
+#outer-flex{
+    flex-direction: row;
+
+}
+
+.form-input {
+    margin: 5px;
+    display: block;
+}
+
+#login-btn{
+    color: white;
+    font-weight: bolder;
+}
