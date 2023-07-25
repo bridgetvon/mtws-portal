@@ -1,9 +1,11 @@
 import Table from 'react-bootstrap/Table';
 import React from 'react';
 import MyForm from '../Form/Form';
+import './Table.css';
 
 function MyTable() {
   return (
+    <div id="custom-table">
     <Table variant="dark">
       <thead>
         <tr>
@@ -39,6 +41,26 @@ function MyTable() {
           <td>Adam</td>
         </tr>
         <tr>
+          <td>5</td>
+          <td>another pretend issue</td>
+          <td>Adam</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>another pretend issue</td>
+          <td>Adam</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>another pretend issue</td>
+          <td>Adam</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>another pretend issue</td>
+          <td>Adam</td>
+        </tr>
+        <tr>
           <td>6</td>
           <td>another pretend issue</td>
           <td>Thor</td>
@@ -48,8 +70,34 @@ function MyTable() {
           <td>another pretend issue</td>
           <td>Loki</td>
         </tr>
+        <tr>
+          <td>6</td>
+          <td>another pretend issue</td>
+          <td>Thor</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>another pretend issue</td>
+          <td>Thor</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>another pretend issue</td>
+          <td>Thor</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>another pretend issue</td>
+          <td>Thor</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>another pretend issue</td>
+          <td>Thor</td>
+        </tr>
       </tbody>
     </Table>
+    </div>
   );
 }
 

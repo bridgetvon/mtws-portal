@@ -10,7 +10,7 @@ function HelpDesk() {
             <Container>
                 <Row>
                     <Col>
-                        <h1 id="forum-title"> Help Desk </h1>
+                        <h1 id="forum-title" className="mt-4"> Help Desk </h1>
                     </Col>
                 </Row>
                 <Row>
@@ -22,7 +22,7 @@ function HelpDesk() {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col xs={9}>
+                    <Col>
                         <Card style={{ color: '#fff' }}>
                             <Card.Body>
                                 <Card.Title>Help Tickets</Card.Title>
