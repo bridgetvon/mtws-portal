@@ -4,7 +4,7 @@ import '../App.css';
 import MyForm from '../components/Form/Form';
 import MyTable from "../components/Table/Table";
 
-function Forum() {
+function HelpDesk() {
     return (
         <>
             <Container>
@@ -53,4 +53,4 @@ function Forum() {
     );
 }
 
-export default Forum;
+export default HelpDesk;

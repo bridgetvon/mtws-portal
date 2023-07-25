@@ -28,7 +28,7 @@ const Hero = (props) => {
                 </HeroBg>
                 <HeroContent>
                     <HeroText>
-                        Welcome to the MTWS Portal
+                        Welcome to the MTWS-MRKI Portal
                     </HeroText>
                     <Login />
                 </HeroContent>

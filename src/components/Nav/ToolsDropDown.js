@@ -16,7 +16,7 @@ const ToolsDropDown = ({ toggle }) => {
                     </NavLink>
                 </Dropdown.Item>
                 <Dropdown.Item>
-                    <NavLink to="/mrkiTopics">
+                    <NavLink to="/helpDesk">
                         System Change Request
                     </NavLink>
                 </Dropdown.Item>

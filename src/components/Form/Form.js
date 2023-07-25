@@ -92,7 +92,7 @@ const MyForm = (props) => {
                 <Form.Control type="file" multiple />
             </Form.Group>
 
-            <Button variant="outline-light" type="submit">
+            <Button variant="success" type="submit">
                 Submit
             </Button>
         </Form>

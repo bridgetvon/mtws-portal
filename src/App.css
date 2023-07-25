@@ -88,3 +88,13 @@ li {
   color: #253c78;
   font-weight: bolder;
 }
+
+#questions-col{
+  border-left: 0px;
+  border-right: 0px;
+}
+
+.question{
+  border-bottom: 1px solid #fff
+}
+

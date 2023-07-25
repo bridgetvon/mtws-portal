@@ -1,0 +1,15 @@
+.vertical-card-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .no-borders{
+    border-right: 0px;
+    border-left: 0px;
+  }
+
+#card{
+   border: 0px; 
+   border-bottom: 1px solid white
+}
+
