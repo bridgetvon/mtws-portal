@@ -2,13 +2,17 @@ import React from "react";
 import { Col, CardGroup, Container, Form, Row, Button, Card, Stack } from "react-bootstrap";
 import './Forum.css';
 import HelpDeskImg from '../../Images/HelpDesk.png';
+import {BsTools} from 'react-icons/bs';
+import Resources from '../../Images/Resources.png';
 
 function Forum() {
     return (
         <>
-            <Row className="g-0">
-                <Col sm={8} id="questions-col">
-                    <h1 style={{ color: 'white' }}>All Questions </h1>
+            <Row className="g-0 mt-5">
+                <Col>             
+                </Col>
+                <Col sm={6} id="questions-col">
+                    <h1 style={{ color: 'white', padding: '10px' }}>All Questions </h1>
                     <Card text="light" id="card">
                         <Card.Body>
                             <Card.Title>How to add assets to submarine?</Card.Title>
@@ -83,15 +87,27 @@ function Forum() {
                     </Card>
                 </Col>
                 <Col sm={4}>
-                <Card bg="dark" text="light" border="light" className='hero-p'>
-                    <Card.Title className="mb-4 ps-0"> Additional Help</Card.Title>
+                    <Card bg="dark" text="light" className='side-card'>
+                        <Card.Title className="mb-4 ps-0"> Additional Help</Card.Title>
                         <Card.Img variant="top" src={HelpDeskImg} id="card-img" />
                         <Card.Body>
                             <Card.Text>
                                 For help you can call the MTWS help hotline at (123)-456-7891 & email at MTWSHelp@mtws-mrki.net, or
                             </Card.Text>
-                            <Button id ="card-btn" variant="outline-light" text="light">
+                            <Button id="card-btn" variant="outline-light" text="light">
                                 Contact Here
+                            </Button>
+                        </Card.Body>
+                    </Card>
+                    <Card bg="dark" text="light" className='side-card'>
+                        <Card.Title className="mb-4 ps-0"> MTWS-MRKI Resources </Card.Title>
+                        <Card.Img variant="top" src={Resources} id="card-img" />
+                        <Card.Body>
+                            <Card.Text>
+                               MTWS-MRKI Resources are currently available here.
+                            </Card.Text>
+                            <Button id="card-btn" variant="outline-light" text="light">
+                                View Resources
                             </Button>
                         </Card.Body>
                     </Card>

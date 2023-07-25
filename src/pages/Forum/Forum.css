@@ -3,13 +3,15 @@
     flex-direction: column;
   }
 
-  .no-borders{
-    border-right: 0px;
-    border-left: 0px;
-  }
-
 #card{
    border: 0px; 
    border-bottom: 1px solid white
+}
+
+.side-card{
+    border: 0px;
+    width: 50%;
+    margin-bottom: 5px;
+
 }
 
