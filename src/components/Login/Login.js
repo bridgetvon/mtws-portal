@@ -37,21 +37,17 @@ const Login = (props) => {
     // });
   };
 
- 
-
- 
 
   return (
       
     <main id="form-box" className="flex-row justify-center mb-4">
-      <div id= "outer-flex" className="outer">
         <div className="card" id="login-card">
           <h4 className="header">Login</h4>
           <div className="card-body">
             <form onSubmit={handleFormSubmit}>
               <input
                 className="form-input"
-                placeholder="Your email"
+                placeholder="Email"
                 name="email"
                 type="email"
                 id="email"
@@ -70,13 +66,9 @@ const Login = (props) => {
               <button id="login-btn" className="btn d-block w-50" type="submit">
                 Submit
               </button>
-            </form>
-
-             <div>Login failed</div>
-            
+            </form>            
           </div>       
         </div>     
-      </div>
     </main>
   );
 };

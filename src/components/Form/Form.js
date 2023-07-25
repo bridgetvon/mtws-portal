@@ -8,15 +8,15 @@ import Modal from 'react-bootstrap/Modal';
 
 const MyForm = (props) => {
     return (
-        <Modal
-            {...props}
-            size="lg"
-            aria-labelledby="contained-modal-title-vcenter"
-            centered>
-            <Modal.header>
-                <Modal.Title id="contained-modal-title-vcenter"> Help Ticket </Modal.Title>
-            </Modal.header>
-            <Modal.Body>
+        // <Modal
+        //     {...props}
+        //     size="lg"
+        //     aria-labelledby="contained-modal-title-vcenter"
+        //     centered>
+        //     <Modal.header>
+        //         <Modal.Title id="contained-modal-title-vcenter"> Help Ticket </Modal.Title>
+        //     </Modal.header>
+        //     <Modal.Body>
                 <Form>
                     <Row className="mb-3">
                         <Form.Group as={Col} controlId="formGridEmail">
@@ -89,11 +89,11 @@ const MyForm = (props) => {
                         Submit
                     </Button>
                 </Form>
-            </Modal.Body>
-            <Modal.Footer>
-                <Button onClick={props.onHide}>Close</Button>
-            </Modal.Footer>
-        </Modal>
+        //     </Modal.Body>
+        //     <Modal.Footer>
+        //         <Button onClick={props.onHide}>Close</Button>
+        //     </Modal.Footer>
+        // </Modal>
     )
 };
 

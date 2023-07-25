@@ -10,19 +10,18 @@
 }
 
 #login-card {
-    border: 1px solid darkgray;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.5);
+    padding: 13px;
+    background: rgba(0, 0, 0, 0.7);
     margin-top: 20%;
     margin-bottom: 20%;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
+    position: absolute;
+    top: -29%;
+    right: 10%;
+    height: 45%;
+
 }
 
-
-#outer-flex{
-    flex-direction: row;
-
-}
 
 .form-input {
     margin: 5px;

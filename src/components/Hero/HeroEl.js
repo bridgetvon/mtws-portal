@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const HeroContainer = styled.div`
 background= #000000;
 display: flex;
-justify-content: center;
 align-items: center;
 padding: 0 30px;
 height: 500px;
@@ -14,9 +13,10 @@ z-index: 1;
 export const HeroBg = styled.div`
 position: absolute;
 top: 0;
-right: 0;
 bottom: 0;
 left: 0;
+right: 0;
+
 width: 100%;
 height: 100%;
 overflow: hidden;
@@ -31,12 +31,6 @@ background: #fff;
 
 export const HeroContent = styled.div`
 z-index: 3;
-max-width: 1200px;
-position: absolute;
-padding: 8px 24px;
-display: flex;
-flex-direction: column;
-align-items: center
 
 @media screen and (max-width: 760px) {
     font-size: 49px;
@@ -44,10 +38,10 @@ align-items: center
 `
 
 export const HeroText = styled.h1`
-color: #000000;
-font-size: 48px;
-text-align: center;
 color: #fff;
+font-size: 48px;
+position: absolute;
+top: 20%;
 
 @media screen and (max-width: 760px) {
     font-size: 40px;
