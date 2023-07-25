@@ -1,18 +1,21 @@
 * {
   font-family: 'Barlow', sans-serif;
   font-family: "Inter", sans-serif;
+  background-color: #2a2a2a;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+body, html {
+    font-family: 'Roboto', sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
 
 .contact-header {
   justify-content: center;
 }
 
-#contact-section{ 
-  display: flex;
-  border: 1;
-  color: 'black'
-
-}
 .portfolio {
   display: flex;
   flex-wrap: wrap;
@@ -28,28 +31,6 @@ li {
   margin-bottom:7%;
 }
 
-.resume {
-  display: flex;
-  padding: 70px;
-}
-
-.resume-section {
-  justify-content: center;
-  display: flex;
-  padding: 20px;
-  flex-wrap: wrap;
-  border: 1px solid black;
-}
-
-.work-section {
-  padding: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  flex: 1;
-  border: 1px solid black;
-
-}
-
 .education {
   padding: 20px;
   padding-bottom: 170px;
@@ -58,22 +39,6 @@ li {
 
 }
 
-.resume-box{
-  padding: 5px;
-}
-
-.resume-box{
-  padding: 5px;
-}
-
-#res-list {
-  padding: 3px;
-}
-
-
-.res-title{
-  padding: 10px;
-}
 
 .outer{
   border: 1px solid #253c78;
@@ -108,6 +73,9 @@ button {
 	padding: 10px 15px;	
 }
 
+#forum-title{
+  color: #fff
+}
 
 li {
   text-decoration: none;
@@ -119,18 +87,4 @@ li {
 .friend-h3 {
   color: #253c78;
   font-weight: bolder;
-}
-
-#add-btn{
-  float: right;
-  padding: 20px;
-  background-color: #253c78;
-  color: #fff;
-  margin-right: 20px;
-}
-
-#friends{
-  color: #253c78;
-  font-weight: bolder;
-  border: 1px solid #253c78;
 }

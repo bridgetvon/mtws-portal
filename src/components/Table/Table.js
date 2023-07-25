@@ -4,7 +4,7 @@ import MyForm from '../Form/Form';
 
 function MyTable() {
   return (
-    <Table striped bordered hover>
+    <Table>
       <thead>
         <tr>
           <th>ID</th>
@@ -16,12 +16,37 @@ function MyTable() {
         <tr>
           <td>1</td>
           <td>Some pretend issue</td>
-          <td></td>
+          <td> Batman</td>
         </tr>
         <tr>
           <td>2</td>
           <td>another pretend issue</td>
-          <td>Thornton</td>
+          <td>Tom</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>another pretend issue</td>
+          <td>Brian</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>another pretend issue</td>
+          <td>Andrew</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>another pretend issue</td>
+          <td>Adam</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>another pretend issue</td>
+          <td>Thor</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>another pretend issue</td>
+          <td>Loki</td>
         </tr>
       </tbody>
     </Table>

@@ -1,12 +1,18 @@
 #form-box {
     display: flex;
     justify-content: center;
+    background-color: transparent;
 }
 
 .header {
     justify-content: center;
     color: #fff;
     font-weight: bolder;
+    background-color: transparent;
+}
+
+.card-body-login{
+    background-color: transparent;
 }
 
 #login-card {
@@ -16,10 +22,9 @@
     margin-bottom: 20%;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
     position: absolute;
-    top: -29%;
+    top: -58%;
     right: 10%;
     height: 45%;
-
 }
 
 

@@ -11,13 +11,14 @@ padding: 0.5rem calc(( 100vw - 1000px) /2);
 z-index: 10;
 `
 export const NavLink = styled(Link) `
-color: #27405D;
+color: #2a2a2a;
 display: flex;
 align-items: center;
 text-decoration: none;
 padding: 0 1rem;
 height: 100%;
 cursor: pointer;
+background-color: transparent;
 
 &.active {
     color: #15cdfc;
@@ -26,7 +27,7 @@ cursor: pointer;
 
 export const Bars = styled(FaBars)`
 display: none;
-color: #27405D;
+color: #fff;
 
 @media screen and (max-width: 768px){
     display: block;

@@ -39,6 +39,7 @@ z-index: 3;
 
 export const HeroText = styled.h1`
 color: #fff;
+background-color: transparent;
 font-size: 48px;
 position: absolute;
 top: 20%;

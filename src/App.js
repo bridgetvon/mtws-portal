@@ -12,13 +12,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-      <main>
+      <main style={{fontFamily: "Barlow Condensed"}}>
         <Router>
           <Home />
         </Router>
       </main>
     </div>
   );
+
 }
 
 export default App;
