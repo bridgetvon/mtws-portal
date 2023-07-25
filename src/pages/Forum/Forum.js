@@ -2,17 +2,23 @@ import React from "react";
 import { Col, CardGroup, Container, Form, Row, Button, Card, Stack } from "react-bootstrap";
 import './Forum.css';
 import HelpDeskImg from '../../Images/HelpDesk.png';
-import {BsTools} from 'react-icons/bs';
+import { BsTools } from 'react-icons/bs';
 import Resources from '../../Images/Resources.png';
 
 function Forum() {
     return (
         <>
             <Row className="g-0 mt-5">
-                <Col>             
+                <Col>
                 </Col>
                 <Col sm={6} id="questions-col">
-                    <h1 style={{ color: 'white', padding: '10px' }}>All Questions </h1>
+                    <h1 style={{ color: 'white', padding: '10px' }}>All Questions</h1>
+                    <Stack direction="horizontal" gap={3}>
+                        <Form.Control className="me-auto" placeholder="Ask a new question..." />
+                        <Button variant="success">Submit</Button>
+                        <div className="vr" />
+                    </Stack>
+
                     <Card text="light" id="card">
                         <Card.Body>
                             <Card.Title>How to add assets to submarine?</Card.Title>
@@ -104,7 +110,7 @@ function Forum() {
                         <Card.Img variant="top" src={Resources} id="card-img" />
                         <Card.Body>
                             <Card.Text>
-                               MTWS-MRKI Resources are currently available here.
+                                MTWS-MRKI Resources are currently available here.
                             </Card.Text>
                             <Button id="card-btn" variant="outline-light" text="light">
                                 View Resources

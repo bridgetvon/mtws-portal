@@ -96,11 +96,11 @@ const MyForm = (props) => {
                 Submit
             </Button>
         </Form>
-        //     </Modal.Body>
-        //     <Modal.Footer>
-        //         <Button onClick={props.onHide}>Close</Button>
-        //     </Modal.Footer>
-        // </Modal>
+        //      </Modal.Body>
+        //      <Modal.Footer>
+        //          <Button onClick={props.onHide}>Close</Button>
+        //      </Modal.Footer>
+        //  </Modal>
     )
 };
 

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Col, Container, Form, Row, Button, Card, Stack } from "react-bootstrap";
-import '../App.css';
-import MyForm from '../components/Form/Form';
-import MyTable from "../components/Table/Table";
+import '../../App.css';
+import MyForm from '../../components/Form/Form'
+import MyTable from "../../components/Table/Table";
 
 function HelpDesk() {
     return (
@@ -38,12 +38,12 @@ function HelpDesk() {
                                 <Card.Title>
                                     Updates and Action Items
                                 </Card.Title>
-                            <Stack direction="horizontal" gap={3}>
-                                <Form.Control className="me-auto" placeholder="Add your item here..." />
-                                <Button variant="success">Submit</Button>
-                                <div className="vr" />
-                                <Button variant="outline-danger">Reset</Button>
-                            </Stack>
+                                <Stack direction="horizontal" gap={3}>
+                                    <Form.Control className="me-auto" placeholder="Add your item here..." />
+                                    <Button variant="success">Submit</Button>
+                                    <div className="vr" />
+                                    <Button variant="outline-danger">Reset</Button>
+                                </Stack>
                             </Card.Body>
                         </Card>
                     </Col>

@@ -11,7 +11,7 @@ const MyDropdown = ({ toggle }) => {
             <Dropdown.Toggle id='drop-btn'>Support</Dropdown.Toggle>
             <Dropdown.Menu>
                 <Dropdown.Item>
-                    <NavLink to="/forum">
+                    <NavLink to="/helpDesk">
                         Help Tickets
                     </NavLink>
                 </Dropdown.Item>

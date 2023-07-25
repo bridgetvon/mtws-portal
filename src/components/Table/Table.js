@@ -4,7 +4,7 @@ import MyForm from '../Form/Form';
 
 function MyTable() {
   return (
-    <Table>
+    <Table variant="dark">
       <thead>
         <tr>
           <th>ID</th>
