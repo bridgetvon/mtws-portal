@@ -41,11 +41,16 @@ nav{
     font-size: 40px;
 
     &.active{
-        color: #15cdfc;
+        color: #1e96fc;
     }
 }
 .navbarNav{
     padding: 20px;
     border-bottom: 5px #262a30;
     margin: auto;
+}
+
+#home{
+    color: #fff;
+    margin-top: 3px;
 }

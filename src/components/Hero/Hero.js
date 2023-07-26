@@ -33,7 +33,7 @@ const Hero = () => {
                     </HeroText>
                 </HeroContent>
             </HeroContainer>
-            <Row>
+            <Row className='mb-3'>
                 <Col>
                     <Card bg="dark" text="light" border="light" className='hero-p'>
                         <Card.Img variant="top" src={MilitaryPic} id="card-img" />
@@ -63,7 +63,7 @@ const Hero = () => {
                             <Card.Text>
                                 For MTWS_MRKI help you can call the MTWS help hotline at (123)-456-7891 & email at MTWSHelp@mtws-mrki.net, or  
                             </Card.Text>
-                            <Button id="card-btn" variant="outline-light" text="light">
+                            <Button id="card-btn" className="m-3" variant="outline-light" text="light">
                                 Contact Here
                             </Button>
                         </Card.Body>

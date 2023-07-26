@@ -24,7 +24,7 @@ const Navbar = ({ toggle }) => {
                     <NavMenu>
                         <>
                             <Bars onClick={toggle} />
-                            <NavLink to="/">
+                            <NavLink id="home" to="/">
                                 Home
                             </NavLink>
                             <ToolsDropDown />

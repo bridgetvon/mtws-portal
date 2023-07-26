@@ -21,7 +21,7 @@ cursor: pointer;
 background-color: transparent;
 
 &.active {
-    color: #15cdfc;
+    color: #1e96fc;
 }
 `
 
