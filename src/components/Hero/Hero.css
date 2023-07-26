@@ -10,9 +10,36 @@
 .hero-p{
    margin: 30px;
    margin-top: 40px;
-   height: 400px;
-   max-height: 400px;
    font-size: 20px;
+}
+
+#lower-img{
+    width: 100%;
+    overflow: hidden;
+    padding: 0px; 
+    margin: 0px;
+    background-size: cover;
+    position: relative;
+}
+
+#lower-img-div{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  font-size: 60px;
+  color: #fff;
+}
+
+#lower-img-small{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
 }
 
 #card-img{
@@ -32,4 +59,19 @@ Card.Body{
 #card-btn{
     background-color: transparent;
     border: 1 #fff;
+}
+
+#support-div{
+    display: flex;
+    justify-content: center;
+}
+
+#mtws-support{
+    color: #fff;
+    margin-top: 50px;
+}
+
+#icon-text{
+    display: flex;
+    justify-content: center; 
 }

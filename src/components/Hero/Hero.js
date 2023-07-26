@@ -8,6 +8,9 @@ import MilitaryPic from '../../Images/Military.jpg';
 import HelpDesk from '../../Images/HelpDesk.png';
 import Soldiers from '../../Images/Soldiers.jpg';
 import Soldier from '../../Images/Soldier.png';
+import {BiSupport} from 'react-icons/bi';
+import {AiFillBug} from 'react-icons/ai';
+import {FaExchangeAlt} from 'react-icons/fa';
 
 const Hero = () => {
 
@@ -33,7 +36,7 @@ const Hero = () => {
                     </HeroText>
                 </HeroContent>
             </HeroContainer>
-            <Row className='mb-3'>
+            <Row className='m-4'>
                 <Col>
                     <Card bg="dark" text="light" border="light" className='hero-p'>
                         <Card.Img variant="top" src={MilitaryPic} id="card-img" />
@@ -61,18 +64,65 @@ const Hero = () => {
                         <Card.Img variant="top" src={HelpDesk} id="card-img" />
                         <Card.Body>
                             <Card.Text>
-                                For MTWS_MRKI help you can call the MTWS help hotline at (123)-456-7891 & email at MTWSHelp@mtws-mrki.net, or  
+                                For MTWS_MRKI help you can call the MTWS help hotline at (123)-456-7891 & email at MTWSHelp@mtws-mrki.net, or
                             </Card.Text>
-                            <Button id="card-btn" className="m-3" variant="outline-light" text="light">
+                            <Button id="card-btn" className="m-2" variant="outline-light" text="light">
                                 Contact Here
                             </Button>
                         </Card.Body>
                     </Card>
                 </Col>
-            </Row >
-            <div>
-            <img style={imageStyles} src={Soldier} alt="hero" />
+            </Row>
+            <div style={{position: 'relative'}}>
+                <img src={Soldier} alt="hero" id='lower-img' />
+                <div id="lower-img-div">hello here is some cool quote</div>
+                <div id="lower-img-small"> And then some smaller text fsdjghsdkjhksjdhgkjdfhgksdhs </div>
             </div>
+            <Row>
+                <Col>
+                <div id='support-div'>
+                <h1 id='mtws-support'> MTWS-MRKI is here for...</h1>
+                </div>
+                </Col>
+            </Row>
+            <Row className='mb-3'>
+                <Col>
+                    <Card bg="dark" text="light" border="light" className='hero-p'>
+                        <Card.Body>
+                            <Card.Text id='icon-text'>
+                               Tech Support
+                            </Card.Text>
+                            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '30vh' }}>
+                            <BiSupport style={{ fontSize: '6rem'}} />
+                            </div>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card text="light" bg="dark" border="light" className='hero-p'>
+                        <Card.Body>
+                            <Card.Text id='icon-text'>
+                                Bug Reports
+                            </Card.Text>
+                            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '30vh' }}>
+                            <AiFillBug style={{ fontSize: '6rem'}} />
+                            </div>
+                        </Card.Body>
+                    </Card>
+                </Col>
+                <Col>
+                    <Card bg="dark" text="light" border="light" className='hero-p'>
+                        <Card.Body>
+                            <Card.Text id='icon-text'>
+                                Change Requests
+                            </Card.Text>
+                            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '30vh' }}>
+                            <FaExchangeAlt style={{ fontSize: '6rem'}}/>
+                            </div>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
         </>
 
     )
