@@ -21,6 +21,7 @@ function MyTable() {
             <th>ID</th>
             <th>Title</th>
             <th>Submitted By</th>
+            <th>Assigned To</th>
             <th>Status</th>
           </tr>
         </thead>
@@ -29,6 +30,7 @@ function MyTable() {
             <td>1</td>
             <td>Some pretend issue</td>
             <td> Batman</td>
+            <td>Mike</td>
             <td>
               <ButtonGroup>
                 {radios.map((radio, idx) => (
@@ -52,6 +54,8 @@ function MyTable() {
             <td>2</td>
             <td>another pretend issue</td>
             <td>Tom</td>
+            <td>Mike</td>
+
             <td>
 
               <ButtonGroup>
@@ -76,6 +80,8 @@ function MyTable() {
             <td>3</td>
             <td>another pretend issue</td>
             <td>Brian</td>
+            <td>Mike</td>
+
             <td>
 
               <ButtonGroup>
@@ -101,6 +107,8 @@ function MyTable() {
             <td>4</td>
             <td>another pretend issue</td>
             <td>Andrew</td>
+            <td>Mike</td>
+
             <td>
 
               <ButtonGroup>
@@ -126,6 +134,8 @@ function MyTable() {
             <td>5</td>
             <td>another pretend issue</td>
             <td>Adam</td>
+            <td>Mike</td>
+
             <td>
 
               <ButtonGroup>
@@ -151,6 +161,8 @@ function MyTable() {
             <td>5</td>
             <td>another pretend issue</td>
             <td>Adam</td>
+            <td>Mike</td>
+
             <td>
 
               <ButtonGroup>
@@ -176,6 +188,8 @@ function MyTable() {
             <td>5</td>
             <td>another pretend issue</td>
             <td>Adam</td>
+            <td>Mike</td>
+
             <td>
 
               <ButtonGroup>
@@ -200,6 +214,8 @@ function MyTable() {
             <td>5</td>
             <td>another pretend issue</td>
             <td>Adam</td>
+            <td>Mike</td>
+
             <td>
 
               <ButtonGroup>
@@ -224,6 +240,8 @@ function MyTable() {
             <td>5</td>
             <td>another pretend issue</td>
             <td>Adam</td>
+            <td>Mike</td>
+
             <td>
 
               <ButtonGroup>
@@ -248,6 +266,8 @@ function MyTable() {
             <td>6</td>
             <td>another pretend issue</td>
             <td>Thor</td>
+            <td>Mike</td>
+
             <td>
 
               <ButtonGroup>
@@ -272,6 +292,8 @@ function MyTable() {
             <td>2</td>
             <td>another pretend issue</td>
             <td>Loki</td>
+            <td>Mike</td>
+
             <td>
 
               <ButtonGroup>
@@ -296,6 +318,8 @@ function MyTable() {
             <td>6</td>
             <td>another pretend issue</td>
             <td>Thor</td>
+            <td>Mike</td>
+
             <td>
 
               <ButtonGroup>
@@ -320,6 +344,8 @@ function MyTable() {
             <td>6</td>
             <td>another pretend issue</td>
             <td>Thor</td>
+            <td>Mike</td>
+
             <td>
 
               <ButtonGroup>
@@ -344,6 +370,8 @@ function MyTable() {
             <td>6</td>
             <td>another pretend issue</td>
             <td>Thor</td>
+            <td>Mike</td>
+
             <td>
 
               <ButtonGroup>
@@ -368,6 +396,8 @@ function MyTable() {
             <td>6</td>
             <td>another pretend issue</td>
             <td>Thor</td>
+            <td>Mike</td>
+
             <td>
 
               <ButtonGroup>
@@ -392,6 +422,8 @@ function MyTable() {
             <td>6</td>
             <td>another pretend issue</td>
             <td>Thor</td>
+            <td>Mike</td>
+
             <td>
 
               <ButtonGroup>
