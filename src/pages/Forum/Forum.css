@@ -1,7 +1,8 @@
 .vertical-card-group {
     display: flex;
     flex-direction: column;
-  }
+    background: #2a2a2a;
+}
 
 #card{
    border: 0px; 

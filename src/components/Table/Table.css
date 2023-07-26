@@ -1,5 +1,5 @@
 #custom-table {
     height: 500px;
-    max-height: 500px; /* Set the desired height for the container */
+    max-height: 385px; /* Set the desired height for the container */
     overflow-y: auto; /* Enable vertical scrollbar */
   }

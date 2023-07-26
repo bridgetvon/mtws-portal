@@ -47,6 +47,10 @@
     object-fit: cover;
 }
 
+#top-card-txt{
+    font-family: 'Roboto', sans-serif;
+}
+
 
 form{
     background-color: transparent;

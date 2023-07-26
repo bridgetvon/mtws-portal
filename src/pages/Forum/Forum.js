@@ -28,7 +28,6 @@ function Forum() {
                         </Card.Body>
                         <Card.Body className="pe-0">
                             <Card.Link href="#">Reply</Card.Link>
-
                         </Card.Body>
                     </Card>
                     <Card text="light" id="card">

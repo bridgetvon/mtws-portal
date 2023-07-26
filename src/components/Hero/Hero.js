@@ -41,7 +41,7 @@ const Hero = () => {
                     <Card bg="dark" text="light" border="light" className='hero-p'>
                         <Card.Img variant="top" src={MilitaryPic} id="card-img" />
                         <Card.Body>
-                            <Card.Text>
+                            <Card.Text id='top-card-txt'>
                                 This website is not an official component of the Department of Defense or any Military service. It is an unclassified site and contain NO classified
                                 government information. Users are precluded from submitting classified information in help requests or forum posts.
                             </Card.Text>
@@ -52,7 +52,7 @@ const Hero = () => {
                     <Card text="light" bg="dark" border="light" className='hero-p'>
                         <Card.Img variant="top" src={Soldiers} id="card-img" />
                         <Card.Body>
-                            <Card.Text>
+                            <Card.Text id='top-card-txt'>
                                 This website is not an official component of the Department of Defense or any Military service. It is an unclassified site and contain NO classified
                                 government information. Users are precluded from submitting classified information in help requests or forum posts.
                             </Card.Text>
@@ -63,10 +63,10 @@ const Hero = () => {
                     <Card bg="dark" text="light" border="light" className='hero-p'>
                         <Card.Img variant="top" src={HelpDesk} id="card-img" />
                         <Card.Body>
-                            <Card.Text>
+                            <Card.Text id='top-card-txt'>
                                 For MTWS_MRKI help you can call the MTWS help hotline at (123)-456-7891 & email at MTWSHelp@mtws-mrki.net, or
                             </Card.Text>
-                            <Button id="card-btn" className="m-2" variant="outline-light" text="light">
+                            <Button id="card-btn" className="m-4" variant="outline-light" text="light">
                                 Contact Here
                             </Button>
                         </Card.Body>
