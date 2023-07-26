@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import '../Login/Login.css';
+import { Row } from 'react-bootstrap';
 
-const Login = (props) => {
+const Login = () => {
   
   const [formState, setFormState] = useState({ email: '', password: '' });
 
@@ -39,7 +40,7 @@ const Login = (props) => {
 
 
   return (
-      
+     <Row>
     <main id="form-box" className="flex-row justify-center mb-4">
         <div className="card" id="login-card">
           <h4 className="header">Login</h4>
@@ -70,6 +71,7 @@ const Login = (props) => {
           </div>       
         </div>     
     </main>
+    </Row> 
   );
 };
 

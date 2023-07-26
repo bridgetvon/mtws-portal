@@ -7,8 +7,9 @@ import { Row, Col, Card, Button } from 'react-bootstrap';
 import MilitaryPic from '../../Images/Military.jpg';
 import HelpDesk from '../../Images/HelpDesk.png';
 import Soldiers from '../../Images/Soldiers.jpg';
+import Soldier from '../../Images/Soldier.png';
 
-const Hero = (props) => {
+const Hero = () => {
 
     const imageStyles = {
         width: '100%',
@@ -28,9 +29,8 @@ const Hero = (props) => {
                 </HeroBg>
                 <HeroContent>
                     <HeroText>
-                        Welcome to the MTWS-MRKI Portal
+                        WELCOME TO THE MTWS-MRKI PORTAL
                     </HeroText>
-                    <Login />
                 </HeroContent>
             </HeroContainer>
             <Row>
@@ -61,48 +61,18 @@ const Hero = (props) => {
                         <Card.Img variant="top" src={HelpDesk} id="card-img" />
                         <Card.Body>
                             <Card.Text>
-                                For help you can call the MTWS help hotline at (123)-456-7891 & email at MTWSHelp@mtws-mrki.net, or
+                                For MTWS_MRKI help you can call the MTWS help hotline at (123)-456-7891 & email at MTWSHelp@mtws-mrki.net, or  
                             </Card.Text>
-                            <Button id ="card-btn" variant="outline-light" text="light">
+                            <Button id="card-btn" variant="outline-light" text="light">
                                 Contact Here
                             </Button>
                         </Card.Body>
                     </Card>
                 </Col>
             </Row >
-            <Row>
-                <Col>
-                    <Card bg="dark" text="light" border="light" className='hero-p'>
-                    <Card.Body>
-                            <Card.Text>
-                                This website is not an official component of the Department of Defense or any Military service. It is an unclassified site and contain NO classified
-                                government information. Users are precluded from submitting classified information in help requests or forum posts.
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col>
-                    <Card bg="dark" text="light" border="light" className='hero-p'>
-                    <Card.Body>
-                            <Card.Text>
-                                This website is not an official component of the Department of Defense or any Military service. It is an unclassified site and contain NO classified
-                                government information. Users are precluded from submitting classified information in help requests or forum posts.
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </Col>
-                <Col>
-                    <Card bg="dark" text="light" border="light" className='hero-p'>
-                    <Card.Body>
-                            <Card.Text>
-                                This website is not an official component of the Department of Defense or any Military service. It is an unclassified site and contain NO classified
-                                government information. Users are precluded from submitting classified information in help requests or forum posts.
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </Col>
-            </Row>
-
+            <div>
+            <img style={imageStyles} src={Soldier} alt="hero" />
+            </div>
         </>
 
     )

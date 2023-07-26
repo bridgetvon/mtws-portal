@@ -8,7 +8,7 @@ nav{
 }
 
 .navbar-div h2{
-    font-size: 20px;
+    font-size: 30px;
     color: #fff;
 }
 
@@ -38,6 +38,7 @@ nav{
 
 #dropdown {
     margin-top: 8px;
+    font-size: 40px;
 
     &.active{
         color: #15cdfc;

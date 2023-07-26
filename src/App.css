@@ -1,15 +1,5 @@
 * {
-  font-family: 'Barlow', sans-serif;
-  font-family: "Inter", sans-serif;
   background-color: #2a2a2a;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
-
-body, html {
-    font-family: 'Roboto', sans-serif;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
 }
 
 .contact-header {
@@ -31,31 +21,15 @@ li {
   margin-bottom:7%;
 }
 
-.education {
-  padding: 20px;
-  padding-bottom: 170px;
-  margin-bottom: 90%;
-  border: 1px solid black;
-
+#logo-footer{
+position: absolute;
+right: 0;
+margin-right: 35px;
 }
-
 
 .outer{
   border: 1px solid #253c78;
   display: flex;
-}
-
-input, 
-textarea {
-  font-size: 1rem;
-  padding: 0.25rem;
-  border: 1px solid black;
-  outline: none;
-  border-radius: 3px;
-  transition: box-shadow 0.2s;
-  margin-top: 0.35rem;
-  width: 80%;
-  color: #27405d;
 }
 
 label {
@@ -83,18 +57,4 @@ li {
   margin-bottom:7%;
 }
 
-#profile-header,
-.friend-h3 {
-  color: #253c78;
-  font-weight: bolder;
-}
-
-#questions-col{
-  border-left: 0px;
-  border-right: 0px;
-}
-
-.question{
-  border-bottom: 1px solid #fff
-}
 

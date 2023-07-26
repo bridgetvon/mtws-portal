@@ -1,19 +1,112 @@
 import React, { useState } from "react";
-import { Col, Container, Form, Row, Button, Card, Stack } from "react-bootstrap";
+import { Col, Container, Form, Row, Button, Card, Stack, Modal } from "react-bootstrap";
 import '../../App.css';
 import MyForm from '../../components/Form/Form'
 import MyTable from "../../components/Table/Table";
+import { FaCheck, FaRegFlag, FaRegHandshake, FaRegEdit, FaSearch } from "react-icons/fa";
 
 function HelpDesk() {
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
     return (
         <>
             <Container>
                 <Row>
                     <Col>
-                        <h1 id="forum-title" className="mt-4"> Help Desk </h1>
+                        <h1 id="forum-title" className="mt-4"> MTWS-MRKI Help Desk </h1>
                     </Col>
                 </Row>
                 <Row>
+
+                    <Col lg={2}>
+                        {/* <Card style={{ color: '#fff' }}>
+                            <Card.Body>
+                                <Card.Title> New Help Ticket</Card.Title>
+                                <MyForm />
+                            </Card.Body>
+                        </Card> */}
+                        <Stack gap={3}>
+                            <Form.Control className="me-auto" placeholder="Search for..." />
+                            <Button variant="outline-light">
+                                <FaSearch style={{ marginRight: '5px' }}  />
+                                Search</Button>
+                            <Button variant="outline-success" onClick={handleShow}>
+                                <FaRegEdit style={{ marginRight: '5px' }} />
+                                New help ticket
+                            </Button>
+                            <Modal show={show} onHide={handleClose} animation={true} border="light">
+                                <Modal.Header style={{ border: '1px solid #fff' }} closeButton closeVariant="white">
+                                </Modal.Header>
+                                <Modal.Body style={{ border: '1px solid #fff' }}>
+                                    <Card style={{ color: '#fff' }}>
+                                        <Card.Body>
+                                            <Card.Title> New Help Ticket</Card.Title>
+                                            <MyForm />
+                                        </Card.Body>
+                                    </Card>
+                                </Modal.Body>
+                                <Modal.Footer style={{ border: '1px solid #fff', background: '#2a2a2a' }}>
+                                    <Button variant="outline-danger" onClick={handleClose}>
+                                        Close
+                                    </Button>
+                                    <Button variant="outline-success" onClick={handleClose}>
+                                        Save Changes
+                                    </Button>
+                                </Modal.Footer>
+                            </Modal>
+                            <Button variant="outline-success" onClick={handleShow}>
+                                <FaCheck style={{ marginRight: '5px' }}/>
+                                New Action Item
+                            </Button>
+                            <Modal show={show} onHide={handleClose} animation={true} border="light">
+                                <Modal.Header style={{ border: '1px solid #fff' }} closeButton closeVariant="white">
+                                </Modal.Header>
+                                <Modal.Body style={{ border: '1px solid #fff' }}>
+                                    <Card style={{ color: '#fff' }}>
+                                        <Card.Body>
+                                            <Card.Title> New Help Ticket</Card.Title>
+                                            <MyForm />
+                                        </Card.Body>
+                                    </Card>
+                                </Modal.Body>
+                                <Modal.Footer style={{ border: '1px solid #fff', background: '#2a2a2a' }}>
+                                    <Button variant="outline-danger" onClick={handleClose}>
+                                        Close
+                                    </Button>
+                                    <Button variant="outline-success" onClick={handleClose}>
+                                        Save Changes
+                                    </Button>
+                                </Modal.Footer>
+                            </Modal>
+                            <Button variant="outline-success" onClick={handleShow}>
+                                <FaRegFlag style={{ marginRight: '7px' }} />
+                                New Update
+                            </Button>
+                            <Modal show={show} onHide={handleClose} animation={true} border="light">
+                                <Modal.Header style={{ border: '1px solid #fff' }} closeButton closeVariant="white">
+                                </Modal.Header>
+                                <Modal.Body style={{ border: '1px solid #fff' }}>
+                                    <Card style={{ color: '#fff' }}>
+                                        <Card.Body>
+                                            <Card.Title> New Help Ticket</Card.Title>
+                                            <MyForm />
+                                        </Card.Body>
+                                    </Card>
+                                </Modal.Body>
+                                <Modal.Footer style={{ border: '1px solid #fff', background: '#2a2a2a' }}>
+                                    <Button variant="outline-danger" onClick={handleClose}>
+                                        Close
+                                    </Button>
+                                    <Button variant="outline-success" onClick={handleClose}>
+                                        Save Changes
+                                    </Button>
+                                </Modal.Footer>
+                            </Modal>
+                        </Stack>
+                    </Col>
                     <Col>
                         <Card style={{ color: '#fff' }}>
                             <Card.Body>
@@ -22,14 +115,7 @@ function HelpDesk() {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col>
-                        <Card style={{ color: '#fff' }}>
-                            <Card.Body>
-                                <Card.Title>Help Tickets</Card.Title>
-                                <MyForm />
-                            </Card.Body>
-                        </Card>
-                    </Col>
+
                 </Row>
                 <Row>
                     <Col>

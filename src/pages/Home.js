@@ -7,6 +7,7 @@ import Login from '../components/Login/Login';
 import Hero from '../components/Hero/Hero';
 import Forum from './Forum/Forum';
 import HelpDesk from './HelpDesk/HelpDesk';
+import Footer from '../components/Footer/Footer';
 
 
 
@@ -29,6 +30,7 @@ function Home() {
           <Route path="/forum" element={<Forum />} />
         </Routes>
       </main>
+      <Footer />
     </div>
   );
 }

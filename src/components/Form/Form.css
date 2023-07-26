@@ -1,3 +1,8 @@
 #form-label-txt{
     color: #fff,
 }
+
+#height-control{
+    height: 600px;
+    max-heigth: 600px;
+}
