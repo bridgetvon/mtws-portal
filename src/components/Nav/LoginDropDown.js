@@ -11,7 +11,10 @@ const LoginDropDown = ({ toggle }) => {
             <Dropdown.Toggle id='drop-btn'>Login</Dropdown.Toggle>
             <Dropdown.Menu>
                 <Dropdown.Item>
-                    <NavLink to="/forum">
+                    <NavLink to="/login">
+                        Login
+                    </NavLink>
+                    <NavLink to="/login">
                         Signup
                     </NavLink>
                 </Dropdown.Item>

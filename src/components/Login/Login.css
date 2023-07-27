@@ -1,14 +1,13 @@
 #form-box {
     display: flex;
     justify-content: center;
-    background-color: transparent;
+    background-image: url('../../Images/Military.jpg');
 }
 
 .header {
-    justify-content: center;
     color: #fff;
     font-weight: bolder;
-    background-color: transparent;
+    background: transparent;
 }
 
 .card-body-login{
@@ -21,10 +20,8 @@
     margin-top: 20%;
     margin-bottom: 20%;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.3);
-    position: absolute;
-    top: -58%;
-    right: 10%;
-    height: 45%;
+    height: 200px;
+    width: auto;
 }
 
 
