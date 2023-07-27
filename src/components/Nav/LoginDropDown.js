@@ -14,7 +14,7 @@ const LoginDropDown = ({ toggle }) => {
                     <NavLink to="/login">
                         Login
                     </NavLink>
-                    <NavLink to="/login">
+                    <NavLink to="/">
                         Signup
                     </NavLink>
                 </Dropdown.Item>
