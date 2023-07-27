@@ -30,7 +30,7 @@ function HelpDesk() {
                                 <MyForm />
                             </Card.Body>
                         </Card> */}
-                        <Stack gap={3}>
+                        <Stack gap={2}>
                             <Form.Control className="me-auto" placeholder="Search for..." />
                             <Button variant="outline-light">
                                 <FaSearch style={{ marginRight: '5px' }}  />
