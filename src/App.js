@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <main style={{fontFamily: "Bebas Neue"}}>
         <Router>
-          <Home />
+        <Route path="/home" element={<Home />} />
         </Router>
       </main>
     </div>
