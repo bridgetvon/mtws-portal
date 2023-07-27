@@ -38,7 +38,7 @@ const Hero = () => {
             </HeroContainer>
             <Row className='m-4'>
                 <Col>
-                    <Card bg="dark" text="light" border="light" className='hero-p'>
+                    <Card bg="dark" text="light" border="light" className='hero-p' id='top-card'>
                         <Card.Img variant="top" src={MilitaryPic} id="card-img" />
                         <Card.Body>
                             <Card.Text id='top-card-txt'>
@@ -49,7 +49,7 @@ const Hero = () => {
                     </Card>
                 </Col>
                 <Col>
-                    <Card text="light" bg="dark" border="light" className='hero-p'>
+                    <Card text="light" bg="dark" border="light" className='hero-p' id='top-card'>
                         <Card.Img variant="top" src={Soldiers} id="card-img" />
                         <Card.Body>
                             <Card.Text id='top-card-txt'>
@@ -60,7 +60,7 @@ const Hero = () => {
                     </Card>
                 </Col>
                 <Col>
-                    <Card bg="dark" text="light" border="light" className='hero-p'>
+                    <Card bg="dark" text="light" border="light" className='hero-p' id='top-card'>
                         <Card.Img variant="top" src={HelpDesk} id="card-img" />
                         <Card.Body>
                             <Card.Text id='top-card-txt'>

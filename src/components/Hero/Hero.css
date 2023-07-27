@@ -13,6 +13,11 @@
    font-size: 20px;
 }
 
+#top-card{
+    max-height: 450px;
+    min-height: 450px;
+}
+
 #lower-img{
     width: 100%;
     overflow: hidden;
@@ -49,6 +54,7 @@
 
 #top-card-txt{
     font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
 }
 
 

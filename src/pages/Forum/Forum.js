@@ -2,7 +2,6 @@ import React from "react";
 import { Col, CardGroup, Container, Form, Row, Button, Card, Stack } from "react-bootstrap";
 import './Forum.css';
 import HelpDeskImg from '../../Images/HelpDesk.png';
-import { BsTools } from 'react-icons/bs';
 import Resources from '../../Images/Resources.png';
 
 function Forum() {
@@ -22,7 +21,7 @@ function Forum() {
                     <Card text="light" id="card">
                         <Card.Body>
                             <Card.Title>How to add assets to submarine?</Card.Title>
-                            <Card.Text>
+                            <Card.Text id="card-text">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisis volutpat est velit egestas dui id ornare.
                             </Card.Text>
                         </Card.Body>
@@ -33,7 +32,7 @@ function Forum() {
                     <Card text="light" id="card">
                         <Card.Body>
                             <Card.Title>Initializing a unit</Card.Title>
-                            <Card.Text>
+                            <Card.Text id="card-text">
                                 A erat nam at lectus urna. Sit amet luctus venenatis lectus magna fringilla urna porttitor rhoncus. Adipiscing tristique risus nec feugiat in.
                             </Card.Text>
                         </Card.Body>
@@ -45,7 +44,7 @@ function Forum() {
                     <Card text="light" id="card">
                         <Card.Body>
                             <Card.Title>Entity Locate Shape is not drawing correctly, how do I fix it?</Card.Title>
-                            <Card.Text>
+                            <Card.Text id="card-text">
                                 Nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue. Volutpat consequat mauris nunc congue nisi. Volutpat odio facilisis mauris sit amet massa vitae tortor.
                             </Card.Text>
                         </Card.Body>
@@ -57,7 +56,7 @@ function Forum() {
                     <Card text="light" id="card">
                         <Card.Body>
                             <Card.Title>Vehicles are not being populated with consumables </Card.Title>
-                            <Card.Text>
+                            <Card.Text id="card-text">
                                 Nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue. Volutpat consequat mauris nunc congue nisi. Volutpat odio facilisis mauris sit amet massa vitae tortor.
                             </Card.Text>
                         </Card.Body>
@@ -69,7 +68,7 @@ function Forum() {
                     <Card text="light" id="card">
                         <Card.Body>
                             <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
+                            <Card.Text id="card-text">
                                 Nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue. Volutpat consequat mauris nunc congue nisi. Volutpat odio facilisis mauris sit amet massa vitae tortor.
                             </Card.Text>
                         </Card.Body>
@@ -81,7 +80,7 @@ function Forum() {
                     <Card text="light" id="card">
                         <Card.Body>
                             <Card.Title>Card Title</Card.Title>
-                            <Card.Text>
+                            <Card.Text id="card-text">
                                 Nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue. Volutpat consequat mauris nunc congue nisi. Volutpat odio facilisis mauris sit amet massa vitae tortor.
                             </Card.Text>
                         </Card.Body>
@@ -92,11 +91,11 @@ function Forum() {
                     </Card>
                 </Col>
                 <Col sm={4}>
-                    <Card bg="dark" text="light" className='side-card'>
-                        <Card.Title className="mb-4 ps-0"> Additional Help</Card.Title>
+                    <Card text="light" id='side-card'>
+                        <Card.Title id='side-card-title' className="mb-4 m-1 ps-0"> Additional Help</Card.Title>
                         <Card.Img variant="top" src={HelpDeskImg} id="card-img" />
                         <Card.Body>
-                            <Card.Text>
+                            <Card.Text id="card-text">
                                 For help you can call the MTWS help hotline at (123)-456-7891 & email at MTWSHelp@mtws-mrki.net, or
                             </Card.Text>
                             <Button id="card-btn" variant="outline-light" text="light">
@@ -104,11 +103,11 @@ function Forum() {
                             </Button>
                         </Card.Body>
                     </Card>
-                    <Card bg="dark" text="light" className='side-card'>
-                        <Card.Title className="mb-4 ps-0"> MTWS-MRKI Resources </Card.Title>
+                    <Card text="light" id='side-card'>
+                        <Card.Title id='side-card-title' className="mb-4 m-1 ps-0"> MTWS-MRKI Resources </Card.Title>
                         <Card.Img variant="top" src={Resources} id="card-img" />
                         <Card.Body>
-                            <Card.Text>
+                            <Card.Text id="card-text">
                                 MTWS-MRKI Resources are currently available here.
                             </Card.Text>
                             <Button id="card-btn" variant="outline-light" text="light">

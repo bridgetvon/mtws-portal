@@ -9,13 +9,22 @@
    border-bottom: 1px solid white
 }
 
-.side-card{
-    border: 0px;
+#side-card{
     width: 50%;
-    margin-bottom: 5px;
+    background: #2a2a2a;
+    margin-right: 5px;
+}
+
+#side-card-title{
+    background: #2a2a2a
 }
 
 href{
     color: #014f86
+}
+
+#card-text{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
 }
 
