@@ -28,17 +28,18 @@
 
 #lower-img-div{
   position: absolute;
-  top: 70%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   background: transparent;
   font-size: 60px;
   color: #fff;
+  text-align: center;
 }
 
 #lower-img-small{
     position: absolute;
-    top: 80%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: transparent;
