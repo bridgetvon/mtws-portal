@@ -132,7 +132,7 @@ function HelpDesk() {
 
                 </Row>
                 <Row>
-                    <Col>
+                    <Col lg={10}>
                         <Card text="light">
                             <Card.Body>
                                 <Card.Title>
