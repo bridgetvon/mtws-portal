@@ -24,7 +24,7 @@ function Home() {
         <Navbar toggle={toggle} />
         {isOpen ? < Sidebar toggle={toggle} /> : ''}
         <Routes>
-          <Route path="/ligma" element={<Hero />} />
+          <Route path="/home" element={<Hero />} />
           <Route path="/login" element={<Login />} />
           <Route path="/helpDesk" element={<HelpDesk />} />
           <Route path="/forum" element={<Forum />} />
