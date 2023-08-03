@@ -76,7 +76,7 @@ function HelpDesk() {
                                     </Button>
                                 </Modal.Footer>
                             </Modal>
-                            <Button  id='help-btn' variant="outline-primary" onClick={handleShow}>
+                            <Button  style={{marginBottom: '0px'}} variant="outline-primary" onClick={handleShow}>
                                 <FaRegFlag style={{ marginRight: '7px' }} />
                                 New Update
                             </Button>
