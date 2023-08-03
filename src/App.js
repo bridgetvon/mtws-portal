@@ -6,6 +6,9 @@ import Hero from './components/Hero/Hero';
 import Login from './components/Login/Login';
 import HelpDesk from './pages/HelpDesk/HelpDesk';
 import Forum from './pages/Forum/Forum';
+import Footer from './components/Footer/Footer';
+import Sidebar from './components/Sidebar/Sidebar';
+import Navbar from './components/Nav/Navbar';
 
 import React from 'react';
 
@@ -13,6 +16,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false)
+  const toggle = () => {
+    //set state to go from false to true
+    setIsOpen(!isOpen)
+  }
+
   return (
     <Router>
       <div>
