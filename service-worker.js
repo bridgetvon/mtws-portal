@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/mtws-portal/precache-manifest.73ddcbfb23c6f8bcf9c28f8dab9fd9dd.js"
+  "/mtws-portal/precache-manifest.5a5f8f5c521f3ec3e54b868781d62d78.js"
 );
 
 workbox.clientsClaim();
