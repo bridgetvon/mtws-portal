@@ -1,6 +1,6 @@
 {
   "name" : "mtws-portal",
-  "homepage": "http://bridgetvon.github.io/mtws-portal",
+  "homepage": "http://bridgetvon.github.io/mtws-portal/home",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
