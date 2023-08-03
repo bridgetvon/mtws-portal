@@ -24,14 +24,8 @@ function HelpDesk() {
                 <Row>
 
                     <Col lg={2} className="mt-3">
-                        {/* <Card style={{ color: '#fff' }}>
-                            <Card.Body>
-                                <Card.Title> New Help Ticket</Card.Title>
-                                <MyForm />
-                            </Card.Body>
-                        </Card> */}
-                        <Stack>
-                            <Form.Control className="me-auto" placeholder="Search for..." />
+                        <Stack className="mb-0">
+                            <Form.Control className="me-auto my-auto" placeholder="Search for..." />
                             <Button variant="outline-light">
                                 <FaSearch style={{ marginRight: '5px', marginBottom: '2px' }}  />
                                 Search</Button>
