@@ -10,7 +10,7 @@ import Footer from './components/Footer/Footer';
 import Sidebar from './components/Sidebar/Sidebar';
 import Navbar from './components/Nav/Navbar';
 
-import React from 'react';
+import React, { useState } from 'react';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
