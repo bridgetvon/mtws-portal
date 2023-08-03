@@ -4,8 +4,8 @@ import '../../App.css';
 import MyForm from '../../components/Form/Form'
 import MyTable from "../../components/Table/Table";
 import { FaCheck, FaRegFlag, FaExchangeAlt, FaRegEdit, FaSearch } from "react-icons/fa";
-import {BiSupport} from 'react-icons/bi';
-import {AiFillBug} from 'react-icons/ai';
+import { BiSupport } from 'react-icons/bi';
+import { AiFillBug } from 'react-icons/ai';
 
 function HelpDesk() {
     const [show, setShow] = useState(false);
@@ -24,9 +24,9 @@ function HelpDesk() {
                 <Row>
                     <Col lg={2} className="mt-3">
                         <Stack>
-                            <Form.Control className="me-auto" id="search-input" placeholder="Search for..." />
+                            <Form.Control style={{ marginBottom: '10px' }} className="me-auto" id="search-input" placeholder="Search for..." />
                             <Button id='help-btn' variant="outline-light">
-                                <FaSearch style={{ marginRight: '5px', marginBottom: '2px', marginTop:'3px' }}  />
+                                <FaSearch style={{ marginRight: '5px', marginBottom: '2px', marginTop: '3px' }} />
                                 Search</Button>
                             <Button id='help-btn' variant="outline-success" onClick={handleShow}>
                                 <FaRegEdit style={{ marginRight: '5px' }} />
@@ -47,13 +47,13 @@ function HelpDesk() {
                                     <Button id='help-btn' variant="outline-danger" onClick={handleClose}>
                                         Close
                                     </Button>
-                                    <Button  id='help-btn' variant="outline-success" onClick={handleClose}>
+                                    <Button id='help-btn' variant="outline-success" onClick={handleClose}>
                                         Save Changes
                                     </Button>
                                 </Modal.Footer>
                             </Modal>
                             <Button id='help-btn' variant="outline-secondary" onClick={handleShow}>
-                                <FaCheck style={{ marginRight: '5px' }}/>
+                                <FaCheck style={{ marginRight: '5px' }} />
                                 New Action Item
                             </Button>
                             <Modal show={show} onHide={handleClose} animation={true} border="light">
@@ -76,7 +76,7 @@ function HelpDesk() {
                                     </Button>
                                 </Modal.Footer>
                             </Modal>
-                            <Button  style={{marginBottom: '0px'}} variant="outline-primary" onClick={handleShow}>
+                            <Button style={{ marginBottom: '0px' }} variant="outline-primary" onClick={handleShow}>
                                 <FaRegFlag style={{ marginRight: '7px' }} />
                                 New Update
                             </Button>
@@ -101,15 +101,15 @@ function HelpDesk() {
                                 </Modal.Footer>
                             </Modal>
                             <Button id='help-btn' variant="outline-danger" onClick={handleShow}>
-                                <AiFillBug style={{ marginRight: '5px' }}/>
-                               Bug Report
+                                <AiFillBug style={{ marginRight: '5px' }} />
+                                Bug Report
                             </Button>
                             <Button id='help-btn' variant="outline-warning" onClick={handleShow}>
-                                <FaExchangeAlt style={{ marginRight: '5px' }}/>
+                                <FaExchangeAlt style={{ marginRight: '5px' }} />
                                 Change Request
                             </Button>
                             <Button id='help-btn' variant="outline-info" onClick={handleShow}>
-                                <BiSupport style={{ marginRight: '5px' }}/>
+                                <BiSupport style={{ marginRight: '5px' }} />
                                 Tech Support
                             </Button>
                         </Stack>
