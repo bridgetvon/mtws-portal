@@ -25,7 +25,7 @@ function HelpDesk() {
                     <Col lg={2} className="mt-3">
                         <Stack>
                             <Form.Control style={{ marginBottom: '10px' }} className="me-auto" id="search-input" placeholder="Search for..." />
-                            <Button id='help-btn' variant="outline-light">
+                            <Button style={{ marginBottom: '10px' }} id='help-btn' variant="outline-light">
                                 <FaSearch style={{ marginRight: '5px', marginBottom: '2px', marginTop: '3px' }} />
                                 Search</Button>
                             <Button style={{ marginBottom: '10px' }} id='help-btn' variant="outline-success" onClick={handleShow}>
