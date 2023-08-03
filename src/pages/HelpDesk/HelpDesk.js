@@ -121,7 +121,7 @@ function HelpDesk() {
                             </Button>
                         </Stack>
                     </Col>
-                    <Col>
+                    <Col id='help-col'>
                         <Card style={{ color: '#fff' }}>
                             <Card.Body>
                                 <Card.Title>Help Tickets</Card.Title>
