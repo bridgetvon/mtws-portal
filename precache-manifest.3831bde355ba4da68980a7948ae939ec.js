@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1d689d40251bbfb39d20",
+    "revision": "d060afaf2ae950ce608f",
     "url": "/mtws-portal/static/css/main.bb951b69.chunk.css"
   },
   {
-    "revision": "1d689d40251bbfb39d20",
-    "url": "/mtws-portal/static/js/main.f3636290.chunk.js"
+    "revision": "d060afaf2ae950ce608f",
+    "url": "/mtws-portal/static/js/main.3081aed8.chunk.js"
   },
   {
     "revision": "35be2c9def4e873e4128",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/mtws-portal/static/media/Resources.310250d5.png"
   },
   {
-    "revision": "3930a1a2911b61585b219e3b3497920d",
+    "revision": "00dcbe794d8dee654afc43d994f6a0d5",
     "url": "/mtws-portal/index.html"
   }
 ];
