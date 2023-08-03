@@ -9,16 +9,16 @@ const Sidebar = ({toggle}) => {
           </Icon>
           <SidebarWrapper>
               <SidebarMenu>
-                  <SidebarLink to="/ski" onClick= {toggle}>
+                  <SidebarLink to="/helpDesk" onClick= {toggle}>
                     Tools
                   </SidebarLink>
                   <SidebarLink to="/forum" onClick= {toggle}>
                      Support
                   </SidebarLink>
-                  <SidebarLink to="/trail-run" onClick= {toggle}>
+                  <SidebarLink to="/" onClick= {toggle}>
                    Reports
                   </SidebarLink>
-                  <SidebarLink to="/strava" onClick= {toggle}>
+                  <SidebarLink to="/" onClick= {toggle}>
                     Downloads
                   </SidebarLink>
               </SidebarMenu>
