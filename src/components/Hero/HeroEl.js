@@ -9,6 +9,14 @@ padding: 0 30px;
 height: 500px;
 position: relative;
 z-index: 1;
+
+@media screen and (max-width: 660px) {
+    padding: 15px;
+}
+
+@media screen and (max-width: 480px) {
+    padding: 5px;
+}
 `
 
 export const HeroBg = styled.div`
