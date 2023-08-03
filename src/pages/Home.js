@@ -19,19 +19,21 @@ function Home() {
   }
 
   return (
-    <div>
-      <main>
-        <Navbar toggle={toggle} />
-        {isOpen ? < Sidebar toggle={toggle} /> : ''}
-        <Routes>
-          <Route path="/home" element={<Hero />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/helpDesk" element={<HelpDesk />} />
-          <Route path="/forum" element={<Forum />} />
-        </Routes>
-      </main>
-      <Footer />
-    </div>
+    <Router>
+      <div>
+        <main>
+          <Navbar toggle={toggle} />
+          {isOpen ? < Sidebar toggle={toggle} /> : ''}
+          <Routes>
+            <Route path="/home" element={<Hero />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/helpDesk" element={<HelpDesk />} />
+            <Route path="/forum" element={<Forum />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
