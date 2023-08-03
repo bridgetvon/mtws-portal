@@ -15,7 +15,8 @@ z-index: 1;
 }
 
 @media screen and (max-width: 480px) {
-    padding: 5px;
+    padding: 0px;
+    margin: 0px;
 }
 `
 
