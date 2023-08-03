@@ -19,7 +19,6 @@ function Home() {
   }
 
   return (
-    <Router>
       <div>
         <main>
           <Navbar toggle={toggle} />
@@ -33,7 +32,6 @@ function Home() {
         </main>
         <Footer />
       </div>
-    </Router>
   );
 }
 
