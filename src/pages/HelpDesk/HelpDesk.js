@@ -30,10 +30,10 @@ function HelpDesk() {
                                 <MyForm />
                             </Card.Body>
                         </Card> */}
-                        <Stack gap={3}>
+                        <Stack gap={1}>
                             <Form.Control className="me-auto" placeholder="Search for..." />
                             <Button variant="outline-light">
-                                <FaSearch style={{ marginRight: '5px' }}  />
+                                <FaSearch style={{ marginRight: '5px', marginBottom: '2px' }}  />
                                 Search</Button>
                             <Button variant="outline-success" onClick={handleShow}>
                                 <FaRegEdit style={{ marginRight: '5px' }} />
