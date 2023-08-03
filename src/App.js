@@ -1,6 +1,6 @@
 import './App.css';
 
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
 
@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <main style={{fontFamily: "Bebas Neue"}}>
         <Router>
-          <Home />
+        <Route path="/home" element={<Home />} />
         </Router>
       </main>
     </div>
