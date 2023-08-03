@@ -14,7 +14,7 @@ const Navbar = ({ toggle }) => {
         <>
             <Nav className="navbar-Nav">
                 <img className="image" src={MTWSLogo} alt="Mtws Logo " />
-                <NavLink to="/home">
+                <NavLink to="/">
                     <div className="navbar-div">
                         <h2>MTWS-MRKI Portal</h2>
                     </div>
