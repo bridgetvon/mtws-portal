@@ -23,8 +23,8 @@ function HelpDesk() {
                 </Row>
                 <Row>
                     <Col lg={2} className="mt-3">
-                        <Stack className="my-0">
-                            <Form.Control className="me-auto mb-3" placeholder="Search for..." />
+                        <Stack>
+                            <Form.Control className="me-auto mb-5" placeholder="Search for..." />
                             <Button variant="outline-light">
                                 <FaSearch style={{ marginRight: '5px', marginBottom: '2px', marginTop:'3px' }}  />
                                 Search</Button>
