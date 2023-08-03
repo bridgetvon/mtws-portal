@@ -1,7 +1,7 @@
 {
   "name": "mtws-portal",
   "version": "0.1.0",
-  "homepage": "http://bridgetvon.github.io/mtwsportal",
+  "homepage": "http://bridgetvon.github.io/mtws-portal",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.0",
     "formik": "^2.4.2",
+    "gh-pages": "^5.0.0",
     "google-fonts": "^1.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
