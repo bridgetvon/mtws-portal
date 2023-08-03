@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <main style={{ fontFamily: "Bebas Neue" }}>
-        <Router basename='/app'>
+        <Router basename='/src/pages/Home.js'>
           <Home path="/home"/>
         </Router>
       </main>
