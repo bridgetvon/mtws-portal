@@ -15,10 +15,10 @@ const Sidebar = ({toggle}) => {
                   <SidebarLink to="/forum" onClick= {toggle}>
                      Support
                   </SidebarLink>
-                  <SidebarLink to="/" onClick= {toggle}>
+                  <SidebarLink to="/home" onClick= {toggle}>
                    Reports
                   </SidebarLink>
-                  <SidebarLink to="/" onClick= {toggle}>
+                  <SidebarLink to="/home" onClick= {toggle}>
                     Downloads
                   </SidebarLink>
               </SidebarMenu>
