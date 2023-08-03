@@ -28,7 +28,7 @@ function HelpDesk() {
                             <Button id='help-btn' variant="outline-light">
                                 <FaSearch style={{ marginRight: '5px', marginBottom: '2px', marginTop: '3px' }} />
                                 Search</Button>
-                            <Button id='help-btn' variant="outline-success" onClick={handleShow}>
+                            <Button style={{ marginBottom: '2px' }} id='help-btn' variant="outline-success" onClick={handleShow}>
                                 <FaRegEdit style={{ marginRight: '5px' }} />
                                 New help ticket
                             </Button>
@@ -52,7 +52,7 @@ function HelpDesk() {
                                     </Button>
                                 </Modal.Footer>
                             </Modal>
-                            <Button id='help-btn' variant="outline-secondary" onClick={handleShow}>
+                            <Button  style={{ marginBottom: '2px' }} id='help-btn' variant="outline-secondary" onClick={handleShow}>
                                 <FaCheck style={{ marginRight: '5px' }} />
                                 New Action Item
                             </Button>
@@ -76,7 +76,7 @@ function HelpDesk() {
                                     </Button>
                                 </Modal.Footer>
                             </Modal>
-                            <Button style={{ marginBottom: '0px' }} variant="outline-primary" onClick={handleShow}>
+                            <Button style={{ marginBottom: '2px' }} variant="outline-primary" onClick={handleShow}>
                                 <FaRegFlag style={{ marginRight: '7px' }} />
                                 New Update
                             </Button>
@@ -100,15 +100,15 @@ function HelpDesk() {
                                     </Button>
                                 </Modal.Footer>
                             </Modal>
-                            <Button id='help-btn' variant="outline-danger" onClick={handleShow}>
+                            <Button style={{ marginBottom: '2px' }} id='help-btn' variant="outline-danger" onClick={handleShow}>
                                 <AiFillBug style={{ marginRight: '5px' }} />
                                 Bug Report
                             </Button>
-                            <Button id='help-btn' variant="outline-warning" onClick={handleShow}>
+                            <Button style={{ marginBottom: '2px' }} id='help-btn' variant="outline-warning" onClick={handleShow}>
                                 <FaExchangeAlt style={{ marginRight: '5px' }} />
                                 Change Request
                             </Button>
-                            <Button id='help-btn' variant="outline-info" onClick={handleShow}>
+                            <Button  style={{ marginBottom: '2px' }} id='help-btn' variant="outline-info" onClick={handleShow}>
                                 <BiSupport style={{ marginRight: '5px' }} />
                                 Tech Support
                             </Button>
