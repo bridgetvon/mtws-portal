@@ -76,7 +76,6 @@ const Hero = () => {
             <div style={{position: 'relative'}}>
                 <img src={Soldier} alt="hero" id='lower-img' />
                 <div id="lower-img-div">First to the fight!</div>
-                <div id='lower-img-small'>Rapid, powerful, sustainable show of force worldwide</div>
             </div>
             <Row>
                 <Col>
