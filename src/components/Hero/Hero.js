@@ -7,7 +7,7 @@ import { Row, Col, Card, Button } from 'react-bootstrap';
 import MilitaryPic from '../../Images/Military.jpg';
 import HelpDesk from '../../Images/HelpDesk.png';
 import Soldiers from '../../Images/Soldiers.jpg';
-import Soldier from '../../Images/Soldier.png';
+import Soldier from '../../Images/renameMarine.png';
 import {BiSupport} from 'react-icons/bi';
 import {AiFillBug} from 'react-icons/ai';
 import {FaExchangeAlt} from 'react-icons/fa';
@@ -74,8 +74,8 @@ const Hero = () => {
                 </Col>
             </Row>
             <div style={{position: 'relative'}}>
-                <img src={Soldier} alt="hero" id='lower-img' />
-                <div id="lower-img-div">First to the fight!</div>
+                <img src={Soldier} alt="a marine I think" id='lower-img' />
+                <div id="lower-img-div">Its a marine now! ... I hope</div>
             </div>
             <Row>
                 <Col>
