@@ -12,9 +12,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-      <main style={{fontFamily: "Bebas Neue"}}>
+      <main style={{ fontFamily: "Bebas Neue" }}>
         <Router>
-          <Home />
+          <Home path='/' />
         </Router>
       </main>
     </div>
